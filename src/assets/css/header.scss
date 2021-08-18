@@ -1,0 +1,37 @@
+.headerNav {
+  position: relative;
+  height: 300px;
+  background-image: url('../img/header/code.png');
+  background-image: ('../img/header/code.png'),
+    linear-gradient(#ff9d2f, #ff6126);
+  background-size: cover;
+}
+
+h1 {
+  padding: 100px 0;
+  font: 44px 'Arial';
+  text-align: center;
+}
+
+.headerNav h1 {
+  color: white;
+}
+
+svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+@media (max-width: 699px) {
+  .svg--lg {
+    display: none;
+  }
+}
+
+@media (min-width: 700px) {
+  .svg--sm {
+    display: none;
+  }
+}

@@ -1,0 +1,4 @@
+- name: Account Manager
+  location: Utah
+  configuration: AccountManager
+  open: true

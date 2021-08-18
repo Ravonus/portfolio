@@ -1,0 +1,15 @@
+/**
+ * @author Chad Koslovsky
+ * @email Chad@BioFi.Tech
+ * @create date 2021-05-10 14:29:43
+ * @modify date 2021-05-10 14:32:05
+ * @desc Main CSS Init Application. This app will grab all scss files within the assets CSS file and convert them on build to web pack.
+ */
+
+@import './assets/css/input.scss';
+@import './assets/css/table.scss';
+@import './assets/css/header.scss';
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.App {
+  text-align: center;
+}

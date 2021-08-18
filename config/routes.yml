@@ -1,0 +1,15 @@
+- name: Dashboard
+  link: '/'
+  component: Dashboard
+
+- name: Login
+  link: '/login'
+  component: Login
+
+- name: Signup
+  link: '/register'
+  component: Signup
+
+- name: Settings
+  link: '/settings'
+  component: Settings

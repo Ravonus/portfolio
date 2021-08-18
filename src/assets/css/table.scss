@@ -1,0 +1,9 @@
+.section::before {
+  height: 1em;
+  display: table-row;
+  content: "";
+}
+
+tr.spaceUnder > td {
+  padding-bottom: 1em;
+}
